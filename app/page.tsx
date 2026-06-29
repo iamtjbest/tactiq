@@ -136,7 +136,7 @@ export default function Home() {
             <Link href="/stats" className="hover:text-zinc-400">Stats</Link>
             <Link href="/terms" className="hover:text-zinc-400">Terms</Link>
             <Link href="/privacy" className="hover:text-zinc-400">Privacy</Link>
-        <a href="https://t.me/TactiQPredict" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400">Support</a>
+        <a href="/support" className="flex flex-col items-center gap-0.5 py-1 px-3">Support</a>
           </div>
         </footer>
       </div>
@@ -321,7 +321,7 @@ export default function Home() {
           <span className="text-lg">📊</span>
           <span className="text-[10px] text-zinc-500">Stats</span>
         </Link>
-        <a href="https://t.me/TactiQPredict" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-0.5 py-1 px-3">
+        <a href="/support" className="flex flex-col items-center gap-0.5 py-1 px-3">
           <span className="text-lg">💬</span>
           <span className="text-[10px] text-zinc-500">Support</span>
         </a>
